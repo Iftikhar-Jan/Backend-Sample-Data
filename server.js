@@ -3,7 +3,7 @@ import posts from "./data/post-data.js";
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json("Welcome to Frontend");
+    res.json("Welcome to Backend");
 });
 
 // Get all posts
